@@ -17,3 +17,5 @@ $("#4pm .input").val(localStorage.getItem("4pm"));
 $("#5pm .input").val(localStorage.getItem("5pm"));
 
 
+//current date and time
+$("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
