@@ -2,14 +2,15 @@ body {
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: #ffff;
 }
 
 textarea{
   background: transparent;
-  border: 1px solid #2b2522;
+  border: 1px solid #4a536b;
   resize: none;
-  color: #2b2522;
-  border-left: 1px solid #2b2522;
+  color: #4a536b;
+  border-left: 1px solid #4a536b;
   padding: 10px;
 }
 
@@ -20,9 +21,9 @@ textarea:focus{
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: #2b2522 ;
+  color: #4a536b ;
   border-radius: 0;
-  border-bottom: 5px solid #2b2522;
+  border-bottom: 5px solid #4a536b;
 }
 
 .description{
@@ -43,7 +44,7 @@ textarea:focus{
 .hour {
   background-color: #ffffff;
   color: #2b2522;
-  border-top: 1px dashed #2b2522;
+  border-top: 1px dashed #4a536b;
 }
 
 .past {
@@ -62,16 +63,23 @@ textarea:focus{
 }
 
 .saveBtn {
-  border-left: 1px solid #2b2522;
+  border-left: 1px solid #4a536b;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #92C7C7;
   color: white;
+  background-color: #aed6dc;
 }
+
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
 
-.saveBtn:focus {outline:0;}
+.saveBtn:focus {
+  outline: none;
+}
+
+footer{
+  height: 135px;
+}
