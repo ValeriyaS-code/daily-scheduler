@@ -18,4 +18,22 @@ $("#5pm .input").val(localStorage.getItem("5pm"));
 
 
 //current date and time
-$("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
+$("#currentDay").text(moment().format('MMMM Do YYYY ,h:mm:ss a'));
+
+//identifing if present/future/past and applying classes
+function timeTerm() {
+    var hour = moment().hours();
+    $(".time-block").each(function() {
+    var currHour = parseInt($(this).attr("id"));
+    
+    if (currHour > hour) {
+      $(this).addClass("future");
+    } else if (currHour === hour) {
+      $(this).addClass("present");
+    } else {
+      $(this).addClass("past");
+    }
+    });
+}
+
+timeTerm();

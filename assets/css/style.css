@@ -7,10 +7,10 @@ body {
 
 textarea{
   background: transparent;
-  border: 1px solid #4a536b;
+  border: 1px solid #322e2f;
   resize: none;
-  color: #4a536b;
-  border-left: 1px solid #4a536b;
+  color: #322e2f;
+  border-left: 1px solid #322e2f;
   padding: 10px;
 }
 
@@ -21,9 +21,9 @@ textarea:focus{
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: #4a536b ;
+  color: #322e2f ;
   border-radius: 0;
-  border-bottom: 5px solid #4a536b;
+  border-bottom: 5px solid #322e2f;
 }
 
 .description{
@@ -44,31 +44,33 @@ textarea:focus{
 .hour {
   background-color: #ffffff;
   color: #2b2522;
-  border-top: 1px dashed #4a536b;
+  border-top: 1px dashed #322e2f;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #ced7d8;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #7fe7dc;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #f47a60;
   color: white;
 }
 
+
 .saveBtn {
-  border-left: 1px solid #4a536b;
+  border-left: 1px solid #322e2f;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   color: white;
-  background-color: #aed6dc;
+  background-color: #316879
 }
+
 
 
 .saveBtn i:hover {
