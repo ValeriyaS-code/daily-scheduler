@@ -21,7 +21,7 @@ textarea:focus{
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: #322e2f ;
+  color: #322e2f;
   border-radius: 0;
   border-bottom: 5px solid #322e2f;
 }
@@ -62,16 +62,13 @@ textarea:focus{
   color: white;
 }
 
-
 .saveBtn {
   border-left: 1px solid #322e2f;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   color: white;
-  background-color: #316879
+  background-color: #2274a5;
 }
-
-
 
 .saveBtn i:hover {
   font-size: 20px;
