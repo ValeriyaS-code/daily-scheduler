@@ -30,20 +30,10 @@ if (currHour > hour) {
   $(this).addClass("future");
 } else if (currHour === hour) {
   $(this).addClass("present");
-} else if (currHour > hour) {
+} else{
   $(this).addClass("past");
   }
   });
 }
 
 timeTerm();
-
-
-// if (currHour > hour) {
-//   $(this).addClass("future");
-// } else if (currHour === hour) {
-//   $(this).addClass("present");
-// } else if (currHour > hour) {
-//   $(this).addClass("past");
-// }
-// });

@@ -49,17 +49,14 @@ textarea:focus{
 
 .past {
   background-color: #ced7d8;
-  color: white;
 }
 
 .present {
   background-color: #7fe7dc;
-  color: white;
 }
 
 .future {
   background-color: #f47a60;
-  color: white;
 }
 
 .saveBtn {
